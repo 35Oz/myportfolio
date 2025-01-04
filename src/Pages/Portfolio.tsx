@@ -15,7 +15,7 @@ const PortFolio: React.FC = () => {
       language3:'Tailwind',
       languageColor3: 'bg-purple-500',
       imgDemostration: 'https://i.postimg.cc/Y0tSqYPR/Screenshot-2024-12-18-220037.png',
-      refGithub:'',
+      refGithub:'https://github.com/35Oz/myportfolio.git',
       refToWeb:''
     },
     {
