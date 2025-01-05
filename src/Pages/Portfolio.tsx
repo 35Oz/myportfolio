@@ -40,7 +40,7 @@ const PortFolio: React.FC = () => {
       languageColor: 'bg-blue-500',
       language2:'React Js',
       languageColor2: 'bg-yellow-500',
-      imgDemostration: 'https://i.postimg.cc/zBZTYyKv/Screenshot-2024-12-17-213149.png',
+      imgDemostration: 'https://i.postimg.cc/5tF8rBHD/Screenshot-2024-12-17-213259.png',
       refGithub:'https://github.com/35Oz/Ecommerce.git',
       refToWeb:'https://electrifycomputacion.netlify.app'
     },
@@ -53,7 +53,7 @@ const PortFolio: React.FC = () => {
       languageColor: 'bg-yellow-500',
       language2:'React Js',
       languageColor2: 'bg-yellow-500',
-      imgDemostration: 'https://i.postimg.cc/5tF8rBHD/Screenshot-2024-12-17-213259.png',
+      imgDemostration: 'https://i.postimg.cc/zBZTYyKv/Screenshot-2024-12-17-213149.png',
       refGithub:'https://github.com/35Oz/fyrCostura.git',
       refToWeb:''
     },
