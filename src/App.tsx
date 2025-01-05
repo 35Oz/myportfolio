@@ -4,7 +4,6 @@ import Layout from './components/Layout/Layout';
 import About from './Pages/About-me';
 import Portfolio from './Pages/Portfolio';
 import Education from './Pages/Education';
-import Skills from './Pages/Skills';
 
 
 function App() {
@@ -15,8 +14,6 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="education" element={<Education />} />
-          <Route path="skills" element={<Skills />} />
-        
         </Route>
       </Routes>
     </BrowserRouter>

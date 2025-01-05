@@ -7,7 +7,6 @@ export const navItems = [
   { to: '/about', icon: <User size={20} />, text: 'Sobre Mí' },
   { to: '/portfolio', icon: <FolderGit2 size={20} />, text: 'Portafolio' },
   { to: '/education', icon: <GraduationCap size={20} />, text: 'Educación' },
-  { to: '/skills', icon: <Code2 size={20} />, text: 'Habilidades' },
 ];
 
 const NavLinks = () => {
