@@ -3,6 +3,7 @@ const Skills: React.FC = () => {
   return (
     <div>
       <h1 className="text-3xl font-bold mb-8">SKILLS</h1>
+      
       <div className="space-y-8">
         
         {/* tratar de mejorar usando const y jsons para el llamado
@@ -139,9 +140,8 @@ const Skills: React.FC = () => {
             </div>
           </div>
 
-      
-       
       </div>
+
     </div>
   );
 };
