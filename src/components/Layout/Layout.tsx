@@ -8,8 +8,10 @@ const Layout = () => {
     <div className="min-h-screen bg-gray-800 text-gray-100">
       <Navbar />
       <div className="flex">
-        <Sidebar />
-        <main className="ml-64 pl-44 flex-1 p-8">
+        <div className='hidden md:block fixed left-0 z-40'>
+          <Sidebar />
+        </div>
+        <main className="flex-1 p-4 w-full md:ml-96">
           <Outlet />
         </main>
       </div>

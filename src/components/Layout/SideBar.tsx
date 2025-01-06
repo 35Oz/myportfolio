@@ -13,7 +13,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-80 bg-gray-900 p-6 border-r  border-gray-700 h-screen fixed overflow-y-auto">
+    <div className="w-80 bg-gray-900 p-6 border-r  border-gray-700 overflow-y-auto">
       <div className="flex flex-col">
         <div className="text-center mb-6">
           <div className="w-52 h-52 rounded-full overflow-hidden border-4 border-gray-700 mx-auto">
