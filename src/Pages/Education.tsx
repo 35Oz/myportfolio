@@ -60,14 +60,15 @@ const Education: React.FC = () => {
         {education.map((edu, index) => (
           <div key={index} className="border border-gray-700 rounded-lg  p-6 bg-gray-900">
             <div className="flex items-start justify-between mb-4">
-              <div>
+              <div >
                 <div className="flex items-center space-x-2">
                   <GraduationCap size={24} className="text-blue-600" />
                   <h2 className="text-xl font-bold">{edu.degree}</h2>
                 </div>
                 <h3 className="text-lg mt-1">{edu.school}</h3>
               </div>
-              <div className="text-right">
+              {/*PC view */}
+              <div className="text-right hidden md:block">
                 <div className="flex items-center space-x-2 ">
                   <Calendar size={16} />
                   <span>{edu.period}</span>
@@ -77,7 +78,19 @@ const Education: React.FC = () => {
                   <span>{edu.location}</span>
                 </div>
               </div>
+
             </div>
+            {/*Mobile view*/}
+            <div className="md:hidden flex mb-2">
+                <div className="flex items-center space-x-2 ">
+                  <Calendar size={16} />
+                  <span>{edu.period}</span>
+                </div>
+                <div className="flex items-center space-x-2 ml-5">
+                  <MapPin size={16} />
+                  <span>{edu.location}</span>
+                </div>
+              </div>
 
             <div>
               <h4 className="font-semibold mb-2">Logros:</h4>
