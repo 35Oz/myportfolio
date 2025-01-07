@@ -1,6 +1,6 @@
-import { Calendar, MapPin, Building2, Mail, Github, Globe, Coffee, Book, Gamepad, Plane, Users2 } from 'lucide-react';
+import { Calendar, MapPin, Building2, Mail, Github, Globe, Coffee, Book, Gamepad, Plane} from 'lucide-react';
 import Stats from '../components/UI/Stats';
-import ProfileInfo from '../components/UI/ProfileInfo';
+
 const About = () => {
   const personalInfo = [
     { icon: <Building2 size={18} />, text: 'Desarrollador Web Freelance' },
@@ -34,7 +34,7 @@ const About = () => {
       {/* mobile view*/}
 
 
-      <div className="md:hiddenspace-y-6 bg-gray-900 rounded-xl border border-gray-700 p-6">
+      <div className="md:hidden space-y-6 bg-gray-900 rounded-xl border border-gray-700 p-6">
       <div className="flex flex-col">
         <div className="text-center mb-6">
           <div className="w-52 h-52 rounded-full overflow-hidden border-4 border-gray-700 mx-auto">
