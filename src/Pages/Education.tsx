@@ -117,13 +117,21 @@ const Education: React.FC = () => {
                 </div>
                 <h3 className="text-lg mt-1">{cour.school}</h3>
               </div>
-              <div className="text-right">
+              {/*PC view */}
+              <div className="hidden md:block  md:hiddentext-right">
                 <div className="flex items-center space-x-2 ">
                   <Calendar size={16} />
                   <span>{cour.period}</span>
                 </div>
               </div>
             </div>
+            {/*Mobile view*/}
+            <div className="md:hidden text-right">
+                <div className="flex items-center space-x-2 mb-3">
+                  <Calendar size={16} />
+                  <span>{cour.period}</span>
+                </div>
+              </div>
 
             <div>
               <h4 className="font-semibold mb-2">Logros:</h4>
