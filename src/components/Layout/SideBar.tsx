@@ -7,9 +7,9 @@ import ProfileInfo from '../UI/ProfileInfo';
 
 const Sidebar = () => {
   const stats = [
-    { label: 'Followers', value: '2.5k' },
-    { label: 'Following', value: '180' },
-    { label: 'Repositories', value: '45' },
+    { label: 'Seguidores', value: '2.5k' },
+    { label: 'Seguidos', value: '180' },
+    { label: 'Repositorios', value: '4' },
   ];
 
   return (

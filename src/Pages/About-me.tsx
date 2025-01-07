@@ -1,5 +1,6 @@
-import { Calendar, MapPin, Building2, Mail, Github, Globe, Coffee, Book, Gamepad, Plane } from 'lucide-react';
-
+import { Calendar, MapPin, Building2, Mail, Github, Globe, Coffee, Book, Gamepad, Plane, Users2 } from 'lucide-react';
+import Stats from '../components/UI/Stats';
+import ProfileInfo from '../components/UI/ProfileInfo';
 const About = () => {
   const personalInfo = [
     { icon: <Building2 size={18} />, text: 'Desarrollador Web Freelance' },
@@ -21,9 +22,38 @@ const About = () => {
     { icon: <Plane size={20} />, text: 'Viajes' },
   ];
 
+  const stats = [
+    { label: 'Seguidores', value: '2.5k' },
+    { label: 'Seguidos', value: '180' },
+    { label: 'Repositorios', value: '4' },
+  ];
+
+
   return (
     <div className="max-w-4xl space-y-8">
-      <div className="bg-gray-900 rounded-xl p-8 shadow-xl">
+      {/* mobile view*/}
+
+
+      <div className="md:hiddenspace-y-6 bg-gray-900 rounded-xl border border-gray-700 p-6">
+      <div className="flex flex-col">
+        <div className="text-center mb-6">
+          <div className="w-52 h-52 rounded-full overflow-hidden border-4 border-gray-700 mx-auto">
+            <img
+              src="https://i.postimg.cc/BvgJXH22/Screenshot-2024-11-23-164653.png"
+              alt="Profile"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <h1 className="text-2xl font-bold text-gray-100 mt-4">Ezequiel Díaz</h1>
+          <p className="text-gray-400">@350z</p>
+      </div>
+
+        <Stats stats={stats} />
+      </div>
+    </div>
+
+      {/*PC view*/}
+      <div className="hidden md:block bg-gray-900 rounded-xl p-8 shadow-xl">
         <h1 className="text-4xl font-bold mb-4">¡Hola! 👋</h1>
         <p className="text-xl text-gray-100">
         Soy un Desarrollador Web y me especializo en React Js con TypeScript.

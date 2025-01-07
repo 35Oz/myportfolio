@@ -6,8 +6,8 @@ const Skills: React.FC = () => {
       
       <div className="space-y-8">
         
-        {/* tratar de mejorar usando const y jsons para el llamado
-        de datos para llamar pocas veces en el html lo mismo*/}
+        {/* tengo que mejorar usando constantes para el llamado
+        de datos */}
 
           <div className="border border-gray-700 rounded-lg  p-6 bg-gray-900 w-fit" >
             <div className="flex items-start justify-between mb-4 ">

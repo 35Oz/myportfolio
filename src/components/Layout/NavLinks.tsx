@@ -1,6 +1,6 @@
 
 import { NavLink } from 'react-router-dom';
-import { Home, User, FolderGit2, GraduationCap, Code2,} from 'lucide-react';
+import { Home, User, FolderGit2, GraduationCap} from 'lucide-react';
 
 export const navItems = [
   { to: '/', icon: <Home size={20} />, text: 'Inicio' },

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { Menu, X, User, FolderGit2, GraduationCap, Code2} from 'lucide-react';
+import { Menu, X, User, FolderGit2, GraduationCap} from 'lucide-react';
 
 const navItems = [
   { to: '/', icon: <User size={20} />, text: 'Sobre Mí' },
