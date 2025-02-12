@@ -4,19 +4,21 @@ import { Pin, Star, GitFork, Link, Github} from "lucide-react";
 const PortFolio: React.FC = () => {
   const projects = [
     {
-      name:'Portfolio online',
-      description:'Demostración de mi recorrido como programador con mi Portfolio online inspirado en Github, construido en React Js con Typescript y Tailwind',
-      stars: 83,
-      forks: 1,
+      name:'SneakerHub',
+      description:'Una web de ventas de zapatillas, construido con React Js con TypeScript, tailwind css y three.js para el modelo 3D',
+      stars: 52,
+      forks: 3,
       language:'TypeScript',
       languageColor: 'bg-blue-500',
       language2:'React Js',
       languageColor2: 'bg-yellow-500',
       language3:'Tailwind',
       languageColor3: 'bg-purple-500',
-      imgDemostration: 'https://i.postimg.cc/Y0tSqYPR/Screenshot-2024-12-18-220037.png',
-      refGithub:'https://github.com/35Oz/myportfolio.git',
-      refToWeb:''
+      language4:'three.js',
+      languageColor4: 'bg-black',
+      imgDemostration: 'https://i.postimg.cc/DymStYrB/sneakerhub.png',
+      refGithub:'https://github.com/35Oz/sneakerhub.git',
+      refToWeb:'https://sneakersshub.netlify.app'
     },
     {
       name:'CriptoWeb',
@@ -27,22 +29,11 @@ const PortFolio: React.FC = () => {
       languageColor: 'bg-blue-500',
       language2:'React Js',
       languageColor2: 'bg-yellow-500',
+      language3:'Tailwind',
+      languageColor3: 'bg-purple-500',
       imgDemostration: 'https://i.postimg.cc/Cx5GGTwh/Screenshot-2024-12-09-173558.png',
       refGithub:'https://github.com/sschmeil2211/Web-Crypto-Project',
       refToWeb:'https://criptoweb.netlify.app'
-    },
-    {
-      name:'ElectrifyComputacion',
-      description:'Un ecommerse para la venta de productos electrónicos, construido con React Js con TypeScript',
-      stars: 18,
-      forks: 3,
-      language:'TypeScript',
-      languageColor: 'bg-blue-500',
-      language2:'React Js',
-      languageColor2: 'bg-yellow-500',
-      imgDemostration: 'https://i.postimg.cc/5tF8rBHD/Screenshot-2024-12-17-213259.png',
-      refGithub:'https://github.com/35Oz/Ecommerce.git',
-      refToWeb:'https://electrifycomputacion.netlify.app'
     },
     {
       name:'F&R',
@@ -55,6 +46,21 @@ const PortFolio: React.FC = () => {
       languageColor2: 'bg-yellow-500',
       imgDemostration: 'https://i.postimg.cc/zBZTYyKv/Screenshot-2024-12-17-213149.png',
       refGithub:'https://github.com/35Oz/fyrCostura.git',
+      refToWeb:''
+    },
+    {
+      name:'Portfolio online',
+      description:'Demostración de mi recorrido como programador con mi Portfolio online inspirado en Github, construido en React Js con Typescript y Tailwind',
+      stars: 83,
+      forks: 1,
+      language:'TypeScript',
+      languageColor: 'bg-blue-500',
+      language2:'React Js',
+      languageColor2: 'bg-yellow-500',
+      language3:'Tailwind',
+      languageColor3: 'bg-purple-500',
+      imgDemostration: 'https://i.postimg.cc/Y0tSqYPR/Screenshot-2024-12-18-220037.png',
+      refGithub:'https://github.com/35Oz/myportfolio.git',
       refToWeb:''
     },
   ]
@@ -101,6 +107,8 @@ const PortFolio: React.FC = () => {
               <span className="text-sm text-gray-300">{project.language2}</span>
               <div className={`w-3 h-3 rounded-full ${project.languageColor3}`}></div>
               <span className="text-sm text-gray-300">{project.language3}</span>
+              <div className={`w-3 h-3 rounded-full ${project.languageColor4}`}></div>
+              <span className="text-sm text-gray-300">{project.language4}</span>
               
             </div>
             <div className="flex mt-4 space-x-1">
