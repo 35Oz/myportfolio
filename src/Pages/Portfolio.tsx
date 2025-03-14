@@ -16,7 +16,7 @@ const PortFolio: React.FC = () => {
       languageColor3: 'bg-purple-500',
       language4:'three.js',
       languageColor4: 'bg-black',
-      imgDemostration: 'https://i.postimg.cc/DymStYrB/sneakerhub.png',
+      imgDemostration: 'https://i.postimg.cc/zvQG3j1n/sneaker-Hub.png',
       refGithub:'https://github.com/35Oz/sneakerhub.git',
       refToWeb:'https://sneakersshub.netlify.app'
     },
@@ -66,7 +66,7 @@ const PortFolio: React.FC = () => {
   ]
 
   return (
-    <div className="max-w-4xl">
+    <div className="max-w-4xl mx-auto">
       <div className="flex items-center justify-between mb-8">
         <h1 className="text-3xl font-bold text-gray-100">Portfolio</h1>
       </div>
